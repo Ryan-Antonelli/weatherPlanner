@@ -11,6 +11,8 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="./assets/style.css">
+
 </head>
 <body>
     <div class="container-fluid">
@@ -24,16 +26,20 @@
             </div>
         </div>
         <div class="row" id="bodyRow">
-            <div class="col-sm-4" id="citySearchDiv">
+            <div class="col-sm-2" id="citySearchDiv">
                 <section id="searchSection">
                     <form id="searchForm">
                         <label for="search">Search for a City:</label>
+                        <br>
                         <input type="text" id="search" name="search">
                         <input type="submit" id="submit">
+                        <div id="searches">
+
+                        </div>
                     </form>
                 </section>
             </div>
-            <div class="col-sm-8" id="displayDiv">
+            <div class="col-sm-10" id="displayDiv">
                 <div class="row" id="currentRow">
                     <div class="col-sm-12" id="CurrentCol">
                         <section id="current">
@@ -52,8 +58,8 @@
                         </section>
                     </div>
                 </div>
-                <div id="forecastHeader">
-                    5-Day Forecast:
+                <div>
+                    <h3 id="forecastHeader">5-Day Forecast:</h3>
                 </div>
                 <div class="row" id="forecastRow">
                     <div class="col-sm-2" id="forecastCol1">

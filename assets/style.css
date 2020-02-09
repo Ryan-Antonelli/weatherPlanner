@@ -1,0 +1,47 @@
+#submit {
+    background-color: rgb(53, 136, 132);
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+.cityButton {
+    margin: 10px;
+    background-color: rgb(70, 180, 175);
+    color: whitesmoke;
+}
+
+#searchForm {
+    background-color: cornsilk;
+}
+
+.container-fluid {
+    background-color: cornsilk;
+    padding-bottom: 50px;
+}
+
+#humidity {
+    font-size: large;
+}
+
+#windSpeed {
+    font-size: large;
+}
+
+#forecastHeader {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.col-sm-2 {
+    background-color: turquoise;
+    border: black solid 1px;
+}
+
+#citySearchDiv {
+    background-color: cornsilk;
+    border: none;
+}
+
+#displayDiv {
+    padding-left: 2px;
+}
